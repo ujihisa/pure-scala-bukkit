@@ -6,7 +6,7 @@ import org.bukkit.event.EventHandler
 class ScalaPlugin extends JavaPlugin with Listener {
 	override def onEnable {
 		println('cool)
-		getServer.getPluginManager.registerEvents(this, this);
+		getServer.getPluginManager.registerEvents(this, this)
 	}
 
     @EventHandler

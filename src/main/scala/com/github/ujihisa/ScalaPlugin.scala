@@ -9,9 +9,11 @@ class ScalaPlugin extends JavaPlugin with Listener {
 		getServer.getPluginManager.registerEvents(this, this)
 	}
 
+	/* sample
     @EventHandler
     def onPlayerJoin(evt: org.bukkit.event.player.PlayerJoinEvent) {
 		val player = evt.getPlayer
 		player.sendMessage("welcome to minecraft!")
     }
+	 */
 }
